@@ -1,0 +1,175 @@
+body{
+margin: 0;
+padding: 0;
+}
+.container{
+background: linear-gradient(to right,rgb(70, 32, 85), rgb(236, 149, 203));
+display: flex;
+justify-content: center;
+align-items: center;
+
+/* flex-wrap: wrap; */
+}
+.deux-bloc{
+    /* height: 500px;
+    width: 800px;
+    background: red; */
+    display: flex;
+    flex-grow: 1 1 auto;
+    align-items: center;
+    justify-content: center;
+    background-color: none;
+    height: 480px;
+    width: 700px;
+    /* background:red ; */
+    /* padding: 5px; */
+    /* flex-wrap: wrap; */
+    /* flex-direction: column; */
+    position: relative;
+}
+.bloc1{
+background: rgb(38, 13, 78);
+width: 50%;
+height: 100%;
+color: white;
+display: flex;
+flex-direction: column;
+align-items: center;
+/* justify-content: center; */
+/* margin: 10px; */
+}
+.bloc2{
+    width:100%;
+    height:100% ;
+    background-image: url(images/photo-resto.jpg);
+    /* color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center; */
+    /* margin: 10px; */
+    position: relative;
+}
+.bloc2 img{
+    height:100% ;
+    width: 100%;
+    /* flex-wrap: wrap; */
+    position: absolute;
+    object-fit: cover;
+}
+input{
+    background: rgb(38, 13, 78) ;
+}
+h1{
+    
+}
+/* .prix{
+    padding: 20px;
+    display: flex;
+}
+.prix p{
+    margin-top: 2px;
+} */
+ .prix label{
+    display: flex;
+    gap: 70px;
+    padding: 10px;
+ }
+ .label1{
+    display: flex;
+    gap: 70px;
+    padding: 10px;
+ }
+ .label2{ 
+    display: flex;
+    gap: 60px;
+    padding: 10px;}
+ .label3{
+    display: flex;
+    gap: 60px;
+    padding: 10px;
+ }
+ .label4{
+    display: flex;
+    gap: 60px;
+    padding: 10px;
+ }
+ .label5{
+    display: flex;
+    gap: 40px;
+    padding: 20px;
+ }
+ .toutinput{
+    padding: 20px;
+    margin-left: 25px;
+    /* margin: 20px; */
+ }
+.label1 select{
+    background: rgb(38, 13, 78) ;
+    color:white ;
+}
+.label5 textarea{
+    background: rgb(38, 13, 78) ;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    /* gap: 30px; */
+    /* margin: 20px; */
+    /* padding: 20px; */
+    /* margin-right: 40px; */
+}
+.label1 select{
+    border-top: none;
+    border-left: none;
+    border-right: none;
+}
+.label2 input{
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+}
+.label3 input{
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+}
+.label4 input{
+    border-top: none;
+    border-left: none;
+    border-right: none; 
+}
+.pourbutton button{
+    width: 170px;
+    height: 35px;
+    background:linear-gradient(to top,rgba(84, 49, 180, 0.1), rgba(238, 59, 169, 0.7)) ;
+    border: none;
+    margin-right: 80px;
+}
+/* .label5 label{
+    margin-right: 20px;
+} */
+.bloc2 .bloc{
+background-color: rgb(240, 144, 160);
+height: 100px;
+width: 200px;
+}
+@media (max-width: 768px) {
+    body {
+        font-size: 14px;
+    }
+    .deux-bloc{
+        flex-direction: column;
+        height: 150vh;
+    }
+    .bloc1{
+        width: 100%;
+    }
+}
+.toutinput input{
+margin-left: 10;
+}
+.label3 input{
+    margin-left: 20;
+}
+ /* textarea{
+    margin-right: 260px;
+} */
